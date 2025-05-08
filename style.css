@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color: #2E294E;
+    color:azure;
+    height:5rem;
+    line-height: 5rem;  
+}
+
+.choice{
+    width:160px;
+    height:160px;
+    border-radius: 50%;
+}
+
+img{
+    width:150px;
+    height:150px;
+    object-fit:cover; 
+    /* can be used to fit an image without distorting the image. */
+    border-radius: 50%;
+}
+
+.choices{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    margin-top: 5rem;
+}
+
+.choice:hover {
+    background-color:#4B5267;
+    cursor: pointer;
+}
+
+.scoreBoard {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin : 3rem;
+    gap: 5rem;
+}
+
+#user-score,#computer-score {
+    font-size: 4rem;
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
+
+#msg {
+    
+    background-color: #8661C1;
+    color:aliceblue;
+    font-size: 2rem;
+    padding: 2rem;
+    display: inline;
+    border-radius: 1rem;
+}
